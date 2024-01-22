@@ -1,0 +1,72 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App {
+  background: linear-gradient(45deg, red, yellow);
+  margin: 0px;
+  border: solid 10px orangered;
+  text-align: center;
+  height: 585px;
+}
+
+.play {
+  text-align: center;
+  background-color: aqua;
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+  margin: 30px;
+}
+.back {
+  background-color: red;
+  margin: 5px;
+  padding: 5px;
+  width: 100px;
+  border-radius: 10px;
+}
+.reset {
+  background-color: green;
+  margin: 5px;
+  padding: 5px;
+  cursor: pointer;
+  width: 100px;
+  border-radius: 10px;
+}
+.title {
+  color: whitesmoke;
+}
+.play {
+  color: yellow;
+}
+.turns {
+  font-size: larger;
+}
+.squares {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  width: 350px;
+  height: 350px;
+  border: solid black 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.square {
+  border: 3px solid whitesmoke;
+  cursor: pointer;
+}
+.connected {
+  background-color: lightgreen;
+}
+
+.mainContainer {
+  text-align: center;
+}
+.square span {
+  font-size: x-small;
+}
